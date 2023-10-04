@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap");
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-image: url("https://cdn.wallpapersafari.com/63/88/2ms4Hn.jpg");
+  font-family: "Cinzel", serif;
+}
+
+a {
+  color: rgb(194, 194, 194);
+}
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.links {
+  display: grid;
+  gap: 3rem;
+  width: 60rem;
+  background-color: black;
+}

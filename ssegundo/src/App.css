@@ -1,0 +1,18 @@
+.App {
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.App.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1, h2{
+  color: #000000;      
+  background-color: #0000ff;
+  padding: 10px;      
+  font-size: 26px;    
+}
