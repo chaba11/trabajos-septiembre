@@ -1,13 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
+import { Home } from "./components/Home/Home.jsx";
+import { User } from "./components/user/userComponent.jsx";
+import { UserCountry } from "./components/User/userCountryComponent.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App></App>,
+    element: <Home />,
+  },
+  {
+    path: "User",
+    element: <User />,
+  },
+  {
+    path: "/user/:country",
+    element: <UserCountry />,
   },
 ]);
 
